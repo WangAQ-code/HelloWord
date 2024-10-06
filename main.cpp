@@ -18,6 +18,7 @@ void sort(int arr[], int size)
 
 int main()
 {
+    // linux系统添加的注释
     int arr[] = {18, 3, 78, 33, 53};
     int size = sizeof(arr) / sizeof(int);
     sort(arr, size);
