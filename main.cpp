@@ -2,6 +2,7 @@
 
 using namespace std;
 
+// Windows给sort函数添加注释
 void sort(int arr[], int size)
 {
     for (int i = 1; i < size; ++i)
