@@ -9,7 +9,7 @@ void sort(int arr[], int size)
     {
         int val = arr[i];
         int j = i - 1;
-        for (; j >= 0 && arr[j] > val; --j)
+        for (; j >= 0 && arr[j] < val; --j)  // linux 修改排序方式为从大到小
         {
             arr[j + 1] = arr[j];
         }
