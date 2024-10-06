@@ -10,7 +10,9 @@ void sort(int arr[], int size)
         int val = arr[i];
         int j = i - 1;
         for (; j >= 0 && arr[j] > val; --j)
-        {
+        {  
+	   // windows 做了某些优化
+	   /* code */
             arr[j + 1] = arr[j];
         }
         arr[j + 1] = val;
